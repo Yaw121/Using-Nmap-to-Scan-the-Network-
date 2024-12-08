@@ -1,12 +1,51 @@
 # Using-Nmap-to-Scan-the-Network-for-Available-Host
 
-### OBJECTIVE
 
-In this task, the network will be scanned to detect the available hosts using the Nmap application
+### OBJECTIVE FOR THE VULNERABILITY SCANNING LAB
+
+The objective of this lab is to develop and enhance practical skills in identifying, analyzing, and mitigating security vulnerabilities in web applications and network environments. By utilizing industry-standard tools like Kali Linux, Nikto, OWASP ZAP, and Metasploit, the lab focuses on performing comprehensive vulnerability assessments, simulating real-world attacks, and proposing actionable remediation strategies. This lab prepares participants to understand the threat landscape, prioritize vulnerabilities, and contribute effectively to organizational security efforts through detailed reporting and evidence-based recommendations.
+
+
+### Skills Learned
+
+### Web Application Vulnerability Assessment:
+- Conducted in-depth scanning of web applications to identify potential security weaknesses such as misconfigurations, outdated software, and improper input validation.
+
+### Exploit Development and Testing:
+- Simulated real-world attack scenarios to evaluate system defenses and measure the impact of vulnerabilities.
+
+### Network Reconnaissance and Mapping:
+- Performed thorough network scans to map services, open ports, and active hosts for comprehensive security assessments.
+
+### Report Generation and Documentation:
+- Documented findings, categorized vulnerabilities based on severity, and recommended remediation strategies following industry standards.
+
+
+### Tools Used
+
+### Kali Linux:
+- Leveraged the full suite of tools provided by Kali Linux for penetration testing and vulnerability analysis.
+
+### Nikto:
+- Conducted web server scanning to identify insecure files, outdated software, and default configurations.
+- Example findings:
+- Detection of outdated server software.
+- Identification of misconfigured headers and open directories.
+
+### OWASP ZAP (Zed Attack Proxy):
+- Performed dynamic application security testing (DAST) to find SQL injection, Cross-Site Scripting (XSS), and other common vulnerabilities.
+- Automated scanning and manual testing of web applications.
+
+### Metasploit Framework:
+- Exploited known vulnerabilities to demonstrate real-world impact.
+- Used auxiliary modules for reconnaissance and post-exploitation analysis.
+- Example exploits:
+- Exploitation of vulnerable services to gain shell access.
 
 # STEPS
 
 ### TASK 1
+In this task, the network will be scanned to detect the available hosts using the Nmap application
 
 Using the XAMPP Control Panel, I started the Apache and MySQL
 ![image](https://github.com/user-attachments/assets/03193f70-2731-40a8-9328-3721941838c7)
