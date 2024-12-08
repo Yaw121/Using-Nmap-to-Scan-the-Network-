@@ -44,7 +44,8 @@ The objective of this lab is to develop and enhance practical skills in identify
 
 # STEPS
 
-### TASK 1
+<details>
+   <summary><b> TASK 1 Scan the Network for Available Hosts using Nmap <b></summary>
 In this task, the network will be scanned to detect the available hosts using the Nmap application
 
 Using the XAMPP Control Panel, I started the Apache and MySQL
@@ -70,12 +71,15 @@ Executed command that displays the open ports on the device.
 
 ![image](https://github.com/user-attachments/assets/b52e2016-5319-40f9-b1f2-22d1f4191d83)
 
+</details>
 
-### Task 2 - Scan Detected Hosts for Vulnerabilities with Nikto
 
-In this task, I used the Nikto applciation to detect host which will be scanned fo rvulnerabilties
+<details>
+   <summary><b>Task 2 Scan Detected Hosts for Vulnerabilities with Nikto<b></summary> 
 
-In the Terminal in Kali purple, I nstalled the nikto application
+In this task, I used the Nikto application to detect host which will be scanned for vulnerabilities
+
+In the Terminal in Kali Purple, I installed the Nikto application
 
 ![image](https://github.com/user-attachments/assets/b72d0bd2-2e25-4286-a32d-b15b9a8bb4ca)
 
@@ -88,8 +92,10 @@ Executed a command to display the version of the   Apache server running on the 
 
 ![image](https://github.com/user-attachments/assets/415156b0-aa21-4adc-a8d3-2da2d4aa1e14)
 
+</details>
 
-### Task 3 - Scan Detected Hosts for Vulnerabilities with OWASP ZAP
+<details>
+   <summary><b>Task 3 - Scan Detected Hosts for Vulnerabilities with OWASP ZAP</b></summary>
 
 In the task, the OWASP ZAP application will be used to scan the detected hosts for vulnerabilities.
 
@@ -100,9 +106,10 @@ First, open the zap in the Web Applications Analysis menu in Kali, then scanned 
 In the Absence of Anti-CSRF Tokens, a vulnerable web application has been implemented on the ACIM01 device which is Windows server 2022
 
 ![image](https://github.com/user-attachments/assets/4163ca9b-c9ec-4159-b7d5-ac2375be4fae)
+</details>
 
-
-### Task 4 - Scan Detected Hosts for Vulnerabilities with Metasploit and Nmap
+<details>
+   <summary><b>Task 4 - Scan Detected Hosts for Vulnerabilities with Metasploit and Nmap</b></summary>
 
 The Metasploit Framework application can be used in conjunction with the nmap application to detect web application vulnerabilities.
 
@@ -118,6 +125,25 @@ The metasploitable application was used to test which ports are open on the dete
 ![image](https://github.com/user-attachments/assets/9c6e36a6-f984-40e2-b7c2-a58c93511898)
 
 The nmap application was used to determine the version and the operating system hosting the Apache Server.
+</details>
+
+
+<details>
+  <summary><b>Exercise 2 - Monitor Devices for Vulnerabilities</b></summary>
+
+  In this exercise, the Wazuh application will be used to monitor devices for vulnerabilities.
+  
+ ### Task 1 - Prepare the SIEM Manager
+
+ Wazuh is an open-source security monitoring platform with SIEM capabilities. It is designed to monitor and analyze security events and incidents across the information technology infrastructure, provide real-time threat detection, incident response, and compliance management
+
+
+  
+</details> 
+
+</details>
+   
+
 
 
 
